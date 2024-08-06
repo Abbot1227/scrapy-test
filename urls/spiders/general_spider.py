@@ -14,20 +14,12 @@ class GeneralSpider(scrapy.Spider):
 
 
     def start_requests(self):
-        reader = JsonReader('../urls.json', 10)
+        reader = JsonReader('urls.json', 10)
         for a in ArticlesIterator(reader, 10):
             yield scrapy.Request(url=a['news_url'], callback=self.parse, meta={'data': a})
 
     # Tried ScrapyContract for test
     def parse(self, response, **kwargs):
-        """
-        parse function traverses through urls from
-        urls json and crawl articles from each
-
-        @url https://apnews.com/
-        @returns requests 10
-        @scrapes title news_page_url
-        """
         site = response.meta['data']
         for article in response.css('div' + site['main_div_news']):
             title = article.css(site['title']+'::text').get()
