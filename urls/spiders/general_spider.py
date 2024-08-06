@@ -11,6 +11,8 @@ class GeneralSpider(scrapy.Spider):
                        'FEED_FORMAT': 'json',
                        'FEED_EXPORT_BATCH_ITEM_COUNT': 10}
 
+
+
     def start_requests(self):
         reader = JsonReader('../urls.json', 10)
         for a in ArticlesIterator(reader, 10):
@@ -108,3 +110,4 @@ class ArticlesIterator:
             return a
         except IndexError:
             raise StopIteration
+
