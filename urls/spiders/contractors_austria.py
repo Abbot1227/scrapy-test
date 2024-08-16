@@ -5,15 +5,15 @@ from scrapy import Request
 from scrapy.http import Response
 
 
-class ContractorsSpider(scrapy.Spider):
-    name = 'contractors'
+class ContractorsAustriaSpider(scrapy.Spider):
+    name = 'contractors_austria'
 
     custom_settings = {'FEED_URI': 'today%(name)s_%(batch_time)s.json',
                        'FEED_FORMAT': 'json',
                        }
 
     def start_requests(self) -> Iterable[Request]:
-        with open('results_by_country.json', 'r') as f:
+        with open('results_by_austria.json', 'r') as f:
             contractors = json.load(f)
             for contractor in contractors:
                 if contractor["url"] == "":
@@ -22,9 +22,7 @@ class ContractorsSpider(scrapy.Spider):
 
     def parse(self, response: Response, **kwargs: Any) -> Any:
         contractor = response.meta['data']
-        revenue = response.css('th.infobox-label:contains("매출액") + td.infobox-data::text, '
-                               'th.infobox-label:contains("매출액") + td.infobox-data a::text, '
-                               'th.infobox-label:contains("매출액") + td.infobox-data span::text',).getall()
+        revenue = response.xpath('//td[a[contains(text(), "Umsatz")]]/following-sibling::td[1]/text()').getall()
         if revenue is None or len(revenue) == 0:
             return
         contractor['revenue'] = revenue

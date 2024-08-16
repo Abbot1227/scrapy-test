@@ -9,13 +9,12 @@ class GeneralSpider(scrapy.Spider):
 
     custom_settings = {'FEED_URI': 'batch/%(name)s_%(batch_time)s.json',
                        'FEED_FORMAT': 'json',
-                       'FEED_EXPORT_BATCH_ITEM_COUNT': 10}
-
+                       'FEED_EXPORT_BATCH_ITEM_COUNT': 150}
 
 
     def start_requests(self):
-        reader = JsonReader('urls.json', 10)
-        for a in ArticlesIterator(reader, 10):
+        reader = JsonReader('/home/tengr/PycharmProjects/scrapy-test/urls/urls.json', 10)
+        for a in ArticlesIterator(reader, 150):
             yield scrapy.Request(url=a['news_url'], callback=self.parse, meta={'data': a})
 
     # Tried ScrapyContract for test
@@ -37,6 +36,7 @@ class GeneralSpider(scrapy.Spider):
                                  callback=self.parse_article,
                                  meta={'title': title, 'url': news_page_url, 'data': site}
                                  )
+            break
 
     def parse_article(self, response):
         site = response.meta['data']
@@ -102,4 +102,3 @@ class ArticlesIterator:
             return a
         except IndexError:
             raise StopIteration
-
