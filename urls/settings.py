@@ -47,13 +47,17 @@ ROBOTSTXT_OBEY = True
 #SPIDER_MIDDLEWARES = {
 #    "urls.middlewares.UrlsSpiderMiddleware": 543,
 #}
+# Add the following settings to enable scrapy_selenium
+SELENIUM_DRIVER_NAME = 'chrome'
+SELENIUM_DRIVER_ARGUMENTS = ['--headless']  # '--headless' if using headless
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
     "urls.middlewares.UrlsDownloaderMiddleware": 543,
     'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 1,
-    'scrapy.downloadermiddlewares.retry.RetryMiddleware':90,
+    'scrapy.downloadermiddlewares.retry.RetryMiddleware': 90,
+    'scrapy_selenium.SeleniumMiddleware': 800,
 }
 
 PROXY_LIST = [
