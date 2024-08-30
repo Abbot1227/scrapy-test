@@ -1,4 +1,9 @@
-FROM ubuntu:latest
-LABEL authors="tengr"
+FROM python:alpine3.19
 
-ENTRYPOINT ["top", "-b"]
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
+
+COPY . .

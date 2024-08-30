@@ -4,6 +4,9 @@ import os.path
 import currencyapicom
 from dotenv import load_dotenv
 
+conversions = {"de": "EUR"}
+naming = {"Mio": "1000000", "Mrd": "1000000000"}
+
 load_dotenv()
 
 # CurrencyConverter is a class that provides a way to convert

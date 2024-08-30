@@ -1,6 +1,6 @@
 import json
 import re
-
+from utils import CurrencyConverter
 
 # TODO add real time conversion function
 conversion_rates = {
@@ -49,6 +49,8 @@ def filter_revenue(data):
 
 
 def main():
+    converter = CurrencyConverter('rates.json')
+
     with open('/urls/urls/16august_merged_contractors.json', 'r') as file:
         data = json.load(file)
 

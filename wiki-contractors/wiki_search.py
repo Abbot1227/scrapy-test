@@ -9,7 +9,7 @@ from urllib.parse import urlparse
 # Prefixes I do not need
 unwanted_substrings = ['CORP.', 'CO.', '.INT', 'LLC', 'LTD', 'INC', 'GMBH', 'SA', 'AG', 'BV', 'NV', 'PLC', 'PTE', 'SDN',
                        'BHD', 'PTY', 'LIMITED', 'S.A.', '.LTD', 'CO.,', 'CO.,LTD', 'CO.,LTD.', 'CO., LTD', 'INC.',
-                       '|']
+                       '|', 'Public', 'Joint', 'Company', 'Stock']
 
 language_codes = {'Austria': 'de', 'Greece': 'el', 'Germany': 'de', 'France': 'fr', 'Italy': 'it', 'Spain': 'es',
                   'Denmark': 'da', 'India': 'hi', 'Sweden': 'sv', 'Saudi Arabia': 'ar', 'United Arab Emirates': 'ar',
@@ -19,9 +19,13 @@ language_codes = {'Austria': 'de', 'Greece': 'el', 'Germany': 'de', 'France': 'f
                   'South Africa': 'af', 'Luxembourg': 'lb', 'Singapore': 'ms', 'Romania': 'ro', 'Hungary': 'hu',
                   'Serbia': 'sr', 'Croatia': 'hr', 'Slovenia': 'sl', 'Bulgaria': 'bg', 'Czech Republic': 'cs',
                   'Taiwan': 'zh', 'Vietnam': 'vi', 'Thailand': 'th', 'Indonesia': 'id', 'Philippines': 'tl',
-                  'Qatar': 'ar', 'Kuwait': 'ar', 'Lebanon': 'ar', 'Chile': 'es', 'Israel': 'he', 'Egypt': 'ar'}
+                  'Qatar': 'ar', 'Kuwait': 'ar', 'Lebanon': 'ar', 'Chile': 'es', 'Israel': 'he', 'Egypt': 'ar-eg'}
 
-country_categories = {'ko': '대한민국의'} # TODO finish
+country_categories = {'ko': '대한민국의', 'de': 'Bauunternehmen',
+                      'da': 'Bygge-, konstruktions- og anlægsvirksomheder i Danmark', 'ar': 'شركات بناء في مصر',
+                      'es': 'Constructoras de España', 'fr': 'Entreprise de la construction ayant son siège en France',
+                      'zh': '中國建築公司', 'ja': '日本の建設会社', 'ru': 'Строительные компании России',
+                      'ms': 'Companii de construcții din România'}
 
 
 def clean_company_name(name: str) -> str:
@@ -60,18 +64,19 @@ def search_by_url(website: str, country: str, wiki_wiki: wiki.Wikipedia) -> (boo
     url = base_url + language_code + endpoint
     parameters = {'q': search_query, 'limit': number_of_results}
 
-    response = requests.get(url, headers=headers, params=parameters)
-    response = json.loads(response.text)
+    #response = requests.get(url, headers=headers, params=parameters)
+    #response = json.loads(response.text)
 
-    if 'pages' in response:
-        for page in response['pages']:
-            name = page['key']
-            exist, url = search_wikipedia(name, wiki_wiki)
-            if exist:
-                return True, url
-    # searching page in other language
-    elif country in language_codes:
-        language_code = language_codes[country]
+    # if 'pages' in response:
+    #     for page in response['pages']:
+    #         name = page['key']
+    #         exist, url = search_wikipedia(name, wiki_wiki)
+    #         if exist:
+    #             return True, url
+    # # searching page in other language
+    # el
+    if country in language_codes:
+        language_code = 'ms'#language_codes[country]
         wiki_wiki.language = language_code
         # prepare request
         url = base_url + language_code + endpoint
@@ -86,9 +91,11 @@ def search_by_url(website: str, country: str, wiki_wiki: wiki.Wikipedia) -> (boo
 
         response = json.loads(response.text)
 
+
         if 'pages' in response:
             for page in response['pages']:
                 name = page['key']
+                print("Found page:", name)
                 exist, url = search_wikipedia_with_country(name, wiki_wiki, language_code)
                 if exist:
                     wiki_wiki.language = 'en'
@@ -110,21 +117,21 @@ def search_by_name(name: str, country: str, wiki_wiki: wiki.Wikipedia) -> (bool,
     url = base_url + language_code + endpoint
     parameters = {'q': search_query, 'limit': number_of_results}
 
-    response = requests.get(url, headers=headers, params=parameters)
+    #response = requests.get(url, headers=headers, params=parameters)
     # TODO temporary solution for rate limiting
-    while response.status_code == 429:
-        time.sleep(10)
-        response = requests.get(url, headers=headers, params=parameters)
-    response = json.loads(response.text)
+    #while response.status_code == 429:
+     #   time.sleep(10)
+     #   response = requests.get(url, headers=headers, params=parameters)
+    #response = json.loads(response.text)
 
-    if 'pages' in response:
-        for page in response['pages']:
-            name = page['key']
-            exist, url = search_wikipedia(name, wiki_wiki)
-            if exist:
-                return True, url
+    # if 'pages' in response:
+    #     for page in response['pages']:
+    #         name = page['key']
+    #         exist, url = search_wikipedia(name, wiki_wiki)
+    #         if exist:
+    #             return True, url
     if country in language_codes:
-        language_code = language_codes[country]
+        language_code = 'ms'#language_codes[country]
         wiki_wiki.language = language_code
         # prepare request
         url = base_url + language_code + endpoint
@@ -136,6 +143,7 @@ def search_by_name(name: str, country: str, wiki_wiki: wiki.Wikipedia) -> (bool,
         if 'pages' in response:
             for page in response['pages']:
                 name = page['key']
+                print("Found page:", name)
                 exist, url = search_wikipedia_with_country(name, wiki_wiki, language_code)
                 if exist:
                     wiki_wiki.language = 'en'
@@ -160,7 +168,7 @@ def search_wikipedia(name, wiki_wiki: wiki.Wikipedia) -> (bool, str):
 
 
 def search_wikipedia_with_country(name, wiki_wiki: wiki.Wikipedia, language_code) -> (bool, str):
-    if language_code != 'ko':
+    if language_code != 'ms':
         return False, ''
     page = wiki_wiki.page(name)
     exists = page.exists()
@@ -185,6 +193,11 @@ def start_search(input_file: str, output_file: str, wiki_wiki: wiki.Wikipedia):
 def process_search(companies, results, wiki_wiki, output_file):
     for company in companies:
         original_name = company["company name"]
+
+        # TODO create separate function for this
+        if company['country'] != 'Romania':
+            continue
+
         print("Processing: ", company["No."], original_name)
 
         website, country = company["website"], company["country"]
@@ -233,7 +246,7 @@ def main():
     start = time.time()
 
     wiki_wiki = wiki.Wikipedia('test (tengr123ax@gmail.com', 'en')
-    start_search('../../by_country.json', 'results_by_country.json', wiki_wiki)
+    start_search('by_country.json', '../urls/results_by_romania.json', wiki_wiki)
 
     end = time.time()
     print("Time elapsed (seconds):", end - start)
