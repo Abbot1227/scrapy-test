@@ -75,9 +75,9 @@ PROXY_LIST = [
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    "urls.pipelines.UrlsPipeline": 300,
-#}
+ITEM_PIPELINES = {
+   'urls.pipelines.RemoveEmptyValuesPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -104,5 +104,7 @@ PROXY_LIST = [
 REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
-# FEED_FORMAT = "json"
-# FEED_URI = "recharge.json"
+FEEDS = {
+    'indonesia/today%(name)s_time_%(batch_time)s.json': {
+        'format': 'json',
+}}

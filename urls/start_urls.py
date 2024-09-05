@@ -1,0 +1,10 @@
+global_energy_observatory_urls = ['https://globalenergyobservatory.org/list.php?db=PowerPlants&type=Coal',
+                             'https://globalenergyobservatory.org/list.php?db=PowerPlants&type=Gas',
+                             'https://globalenergyobservatory.org/list.php?db=PowerPlants&type=Geothermal',
+                             'https://globalenergyobservatory.org/list.php?db=PowerPlants&type=Hydro',
+                             'https://globalenergyobservatory.org/list.php?db=PowerPlants&type=Nuclear',
+                             'https://globalenergyobservatory.org/list.php?db=PowerPlants&type=Oil',
+                             'https://globalenergyobservatory.org/list.php?db=PowerPlants&type=Solar_PV',
+                             'https://globalenergyobservatory.org/list.php?db=PowerPlants&type=Solar_Thermal',
+                             'https://globalenergyobservatory.org/list.php?db=PowerPlants&type=Waste',
+                             'https://globalenergyobservatory.org/list.php?db=PowerPlants&type=Wind']

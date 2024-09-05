@@ -13,7 +13,7 @@ class ContractorsSpider(scrapy.Spider):
                        }
 
     def start_requests(self) -> Iterable[Request]:
-        with open('results_by_country.json', 'r') as f:
+        with open('../../not-related/results_by_country.json', 'r') as f:
             contractors = json.load(f)
             for contractor in contractors:
                 if contractor["url"] == "":

@@ -13,7 +13,7 @@ class GeneralSpider(scrapy.Spider):
 
 
     def start_requests(self):
-        reader = JsonReader('/home/tengr/PycharmProjects/scrapy-test/urls/urls.json', 10)
+        reader = JsonReader('/urls/urls.json', 10)
         for a in ArticlesIterator(reader, 150):
             yield scrapy.Request(url=a['news_url'], callback=self.parse, meta={'data': a})
 

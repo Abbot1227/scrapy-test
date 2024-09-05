@@ -6,7 +6,19 @@
 import scrapy
 
 
-class UrlsItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+# Items for PowerPlants from global energy spider
+class GlobalEnergySpiderItem(scrapy.Item):
+    name = scrapy.Field()
+    capacity = scrapy.Field()
+    location = scrapy.Field()
+    sublocation = scrapy.Field()
+    plant_type = scrapy.Field()
+    primary_fuel = scrapy.Field()
+    secondary_fuel = scrapy.Field()
+
+
+class WikiSpiderItem(scrapy.Item):
+    name = scrapy.Field()
+    capacity = scrapy.Field()
+    location = scrapy.Field()
+    sublocation = scrapy.Field()
