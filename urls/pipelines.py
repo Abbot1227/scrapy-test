@@ -9,15 +9,18 @@ from itemadapter import ItemAdapter
 
 class RemoveEmptyValuesPipeline:
     def process_item(self, item, spider):
-        adapter = ItemAdapter(item)
-
-        if adapter.get('name') in [None, '']:
-            return None
-
-        if spider.name == 'global_energy':
-            if adapter.get('plant_type') in [None, 'Please Select']:
-                adapter['plant_type'] = ''
-            if adapter.get('secondary_fuel') in [None, 'Please Select']:
-                adapter['secondary_fuel'] = ''
+        # TODO modify to avoid null item error
+        # adapter = ItemAdapter(item)
+        #
+        # if adapter.get('name') in [None, '']:
+        #     return None
+        #
+        # if spider.name == 'global_energy':
+        #     if adapter.get('plant_type') in [None, 'Please Select']:
+        #         adapter['plant_type'] = ''
+        #     if adapter.get('secondary_fuel') in [None, 'Please Select']:
+        #         adapter['secondary_fuel'] = ''
+        #     if adapter.get('status') in [None, 'Please Select']:
+        #         adapter['status'] = ''
 
         return item

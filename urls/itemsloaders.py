@@ -1,6 +1,6 @@
 import scrapy
 from scrapy.loader import ItemLoader
-from scrapy.loader.processors import TakeFirst
+from itemloaders.processors import TakeFirst
 
 
 class GlobalEnergyItemsLoader(ItemLoader):
@@ -8,4 +8,8 @@ class GlobalEnergyItemsLoader(ItemLoader):
 
 
 class WikiItemsLoader(ItemLoader):
+    default_output_processor = TakeFirst()
+
+
+class GemWikiItemsLoader(ItemLoader):
     default_output_processor = TakeFirst()
