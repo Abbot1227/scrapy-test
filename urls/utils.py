@@ -142,3 +142,16 @@ if __name__ == '__main__':
     with open('/home/tengr/PycharmProjects/scrapy-test/urls/indonesia/todaygemwiki_time_2024-09-09T06-06-29.414264+00-00.json', 'r') as file:
         data = json.load(file)
     save_structured_csv(data, 'gemwiki.csv')
+
+def nuenergy_clear(text):
+    pattern = r"Awarded on \d{1,2} \w+ (\d{4}) \((\d{1,2}) Years Contract\)"
+
+    match = re.search(pattern, text)
+
+
+    if match:
+        year = match.group(1)
+        contract_years = match.group(2)
+        return year, contract_years
+    else:
+        return None, None

@@ -131,8 +131,8 @@ class GEMWikiSpider(Spider):
                 location_index = idx + 1
 
         if location_index is not None:
-            location = loc_table.css(f'tr + tr td:nth-child({location_index})::text').get(default='')
             location = location[0:-12].split(', ')
+            location = loc_table.css(f'tr + tr td:nth-child({location_index})::text').get(default='')
             # sublocation is all except the last element
             sublocation = ', '.join(location[0:len(location)-1])
             loader.add_value('location', location[-1])

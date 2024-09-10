@@ -24,3 +24,17 @@ class RemoveEmptyValuesPipeline:
         #         adapter['status'] = ''
 
         return item
+
+class RemoveLessThan100Pipeline:
+    def process_item(self, item, spider):
+        # adapter = ItemAdapter(item)
+        #
+        # try:
+        #     capacity = adapter.get('capacity')
+        #     capacity = int(capacity)
+        # except:
+        #     return None
+        #
+        # if capacity < 100:
+        #     return None
+        return item

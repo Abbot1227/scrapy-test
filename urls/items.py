@@ -46,6 +46,7 @@ class GemWikiSpider(scrapy.Item):
     technology = scrapy.Field()
     units = scrapy.Field()
 
+
 class CommonPowerSpiderItem(scrapy.Item):
     name = scrapy.Field()
     capacity = scrapy.Field()
@@ -61,3 +62,24 @@ class CommonPowerSpiderItem(scrapy.Item):
     units = scrapy.Field()
     technology = scrapy.Field()
     source = scrapy.Field()
+
+
+class OilGasItem(scrapy.Item):
+    name = scrapy.Field()
+    province = scrapy.Field()
+    location = scrapy.Field()
+    status = scrapy.Field()
+    announced_year = scrapy.Field()
+    reserves = scrapy.Field()
+    production = scrapy.Field()
+    site_size = scrapy.Field()
+    production_year = scrapy.Field() # In million barrels per day
+    operator = scrapy.Field()
+    owner = scrapy.Field()
+    discovery_year = scrapy.Field()
+    fuel_desc = scrapy.Field()
+    classification = scrapy.Field()
+    quantity = scrapy.Field()
+    units = scrapy.Field()
+    source = scrapy.Field()
+    website = scrapy.Field()

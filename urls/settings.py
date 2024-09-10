@@ -77,6 +77,7 @@ PROXY_LIST = [
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    'urls.pipelines.RemoveEmptyValuesPipeline': 300,
+    'urls.pipelines.RemoveLessThan100Pipeline': 400,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
