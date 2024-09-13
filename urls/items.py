@@ -66,14 +66,15 @@ class CommonPowerSpiderItem(scrapy.Item):
 
 class OilGasItem(scrapy.Item):
     name = scrapy.Field()
+    block = scrapy.Field()
     province = scrapy.Field()
     location = scrapy.Field()
     status = scrapy.Field()
     announced_year = scrapy.Field()
     reserves = scrapy.Field()
-    production = scrapy.Field()
     site_size = scrapy.Field()
     production_year = scrapy.Field() # In million barrels per day
+    production = scrapy.Field()
     operator = scrapy.Field()
     owner = scrapy.Field()
     discovery_year = scrapy.Field()
@@ -83,3 +84,36 @@ class OilGasItem(scrapy.Item):
     units = scrapy.Field()
     source = scrapy.Field()
     website = scrapy.Field()
+
+
+class MiningItem(scrapy.Item):
+    name = scrapy.Field()
+    source = scrapy.Field()
+    area = scrapy.Field()
+    location = scrapy.Field()
+    province = scrapy.Field()
+    products = scrapy.Field()
+    production = scrapy.Field()
+    financial_year = scrapy.Field()
+    discovered = scrapy.Field()
+    opened = scrapy.Field()
+    reserve = scrapy.Field()
+    closed = scrapy.Field()
+    acquisition_year = scrapy.Field()
+    company = scrapy.Field()
+    contractor = scrapy.Field()
+    geology_type = scrapy.Field()
+    mineral_type = scrapy.Field()
+    website = scrapy.Field()
+    type = scrapy.Field()
+    project_value = scrapy.Field()
+    contract_duration = scrapy.Field()
+    technology = scrapy.Field()
+    employment = scrapy.Field()
+
+
+class WaterItem(scrapy.Item):
+    name = scrapy.Field()
+    source = scrapy.Field()
+    location = scrapy.Field()
+    province = scrapy.Field()

@@ -16,3 +16,6 @@ class GemWikiItemsLoader(ItemLoader):
 
 class NuEnergyItemsLoader(ItemLoader):
     default_output_processor = TakeFirst()
+
+class WikiMineItemsLoader(ItemLoader):
+    default_output_processor = TakeFirst()

@@ -1,0 +1,361 @@
+[
+  {
+    "name":"Mabilo Copper-Gold Project",
+    "source":"https://www.mining-technology.com/projects/mabilo-copper-gold-project/",
+    "products":"Copper and gold",
+    "province":"Philippines",
+    "location":"Luzon",
+    "type":"Open-pit",
+    "reserve":"7.792Mt",
+    "production":"18,000t of copper and 67,000oz of gold a year",
+    "contractor":"Mt. Labo Exploration and Development and Galeo Equipment joint venture"
+  },
+  {
+    "name":"Tujuh Bukit Copper Project, East Java Province, Indonesia",
+    "source":"https://www.mining-technology.com/projects/tujuh-bukit-copper-project-east-java-province-indonesia/",
+    "type":"Open pit",
+    "province":"Indonesia",
+    "location":"East Java Province",
+    "reserve":"289.3 million tonnes",
+    "contractor":"orelogy Consulting, DRA, Ausenco, WSP Golder, Hatch and Stantec"
+  },
+  {
+    "name":"Pani Gold Project, Sulawesi, Indonesia",
+    "source":"https://www.mining-technology.com/projects/pani-gold-project-sulawesi-indonesia/",
+    "products":"Gold",
+    "type":"Open-pit",
+    "location":"Sulawesi Island",
+    "company":"Merdeka Copper Gold",
+    "reserve":"281.3 million tonnes",
+    "production":"500,000oz",
+    "opened": "HL: 2025, CIL: 2028"
+  },
+
+  {
+    "name":"BP Exploration Coal Mine, Kaltim Prima",
+    "source":"https://www.mining-technology.com/projects/kaltim/",
+    "products":"Coal",
+    "province":"Indonesia",
+    "location":"Eastern Kalimantan",
+    "company":"PT Bumi Resources (100%); Government of Indonesia has a 13.5% royalty share",
+    "geology_type":"Miocene (Recent) coal measures",
+    "mineral_type":"High-volatile bituminous steam coal",
+    "type":"Multi-seam open pit",
+    "employment":"2,700"
+  },
+  {
+    "name":"Martabe, North Sumatra",
+    "source":"https://www.mining-technology.com/projects/martabe/\nhttps://www.macmahon.com.au/project/martabe-gold-mine/",
+    "province":"Indonesia",
+    "location":"Northern Sumatra",
+    "company":"G-Resources (95%) and Oxiana (5%)",
+    "products":"Gold and copper",
+    "geology_type": "High sulphidation epithermal deposit",
+    "reserve":"6.73Moz of gold and 68.3Moz of silver",
+    "type":"Open-pit",
+    "project_value":"US$350 million",
+    "contract_duration":"7 years",
+    "production":"Gold doré 250,000oz of gold, 2Moz of silver per annum",
+    "opened":"First quarter of 2012",
+    "contractor":"Ausenco, McConnell Dowell, PT Leighton, PT Duta Graha Indah, Antrak Logistics, PT Agincourt Resources"
+  },
+  {
+    "name":"Batu Hijau Copper-Gold Mine",
+    "source":"https://www.mining-technology.com/projects/batu/\nhttps://www.macmahon.com.au/project/batu-hijau/",
+    "products":"Copper and gold",
+    "province":"West Nusa Tenggara",
+    "location":"Sumbawa Island",
+    "company":"PT Newmont ( 45%), Nusa Tenggara Mining Corp. (35%), PT Pukuafu Indah (20%)",
+    "geology_type":"Gold-rich porphyry copper",
+    "mineral_type":"Copper sulphides with gold",
+    "reserve":"1,011Mt at 0.48% Cu and 0.37g/t Au (2004)",
+    "type":"Open pit",
+    "technology":"Crushing, grinding and flotation",
+    "employment":"4,175",
+    "contractor":"PT Amman Mineral Nusa Tenggara",
+    "project_value":"$2.9 Billion",
+    "contract_duration":"Life of Mine"
+  },
+  {
+    "name":"Awak Mas Gold Project",
+    "source":"https://www.mining-technology.com/projects/awak-mas-gold-project/",
+    "products":"Gold",
+    "province":"Indonesia",
+    "location":"Sulawesi",
+    "type":"Open-pit",
+    "reserve":"26.9Mt",
+    "production":"100,000oz a year",
+    "contractor":"Nusantara Resources"
+  },
+  {
+    "name":"Grasberg Open Pit Copper Mine, Tembagapura, Irian Jaya, Indonesia",
+    "source":"https://www.mining-technology.com/projects/grasbergopenpit/",
+    "products":"Copper (primary); gold",
+    "province":"Indonesia",
+    "location":"Tembagapura",
+    "company":"Freeport McMoran Copper & Gold Inc. (67.3%), Rio Tinto (13%), Government of Indonesia (9.3%), PT Indocopper Investama Corporation (9%)",
+    "geology_type":"Nested coaxial porphyry ore-bodies and sulphide rich skarn at the margins; Eocene clastic carbonates with siltstones/sandstones.",
+    "mineral_type":"Chalcopyrite dominant porphyry skarn",
+    "reserve":"2.8 Billion tonnes; grade,1.09 % Cu",
+    "technology":"Concentrators, thickeners, pumping station, 3x110km pipelines, port loading facilities, coal-fired power station",
+    "employment":"18,000",
+    "contractor":"PT Freeport Indonesia (subsidiary of Freeport McMoran Copper and Gold)",
+    "production":"Copper: 610,800,000kg\nGold: 58,474,392g\nSilver: 174,458,971g\n"
+  },
+  {
+    "name":"Weda Bay Nickel",
+    "source":"https://thiess.com/projects/weda-bay",
+    "location":"Halmahera Island",
+    "province":"North Maluku",
+    "company":"Weda Bay Nickel",
+    "contractor":"https://thiess.com/projects?region=indonesia",
+    "products":"Nickel",
+    "financial_year":"March 2023 - ongoing"
+  },
+  {
+    "name":"Kapuas Mine",
+    "source":"https://thiess.com/projects/kapuas-coal-mine",
+    "location":"Kapuas",
+    "province":"Central Kalimantan",
+    "company":"Kapuas Tunggal Persada, Tempirai Inti Energi",
+    "contractor":"https://thiess.com/projects?region=indonesia",
+    "products":"Coal",
+    "financial_year":"July 2022 - ongoing"
+  },
+  {
+    "name":"Sangatta Mine",
+    "source":"https://thiess.com/projects/sangatta-coal-mine",
+    "location":"Sangatta",
+    "province":"East Kalimantan",
+    "company":"Kaltim Prima Coal (KPC)",
+    "contractor":"https://thiess.com/projects?region=indonesia",
+    "products":"Coal",
+    "financial_year":"October 2003 - ongoing"
+  },
+  {
+    "name":"MSJ Mine",
+    "source":"https://thiess.com/projects/msj-coal-mine",
+    "location":"Separi",
+    "province":"East Kalimantan",
+    "company":"Harum Energy",
+    "contractor":"https://thiess.com/projects?region=indonesia",
+    "products":"Coal",
+    "financial_year":"March 2008 - ongoing"
+  },
+  {
+    "name":"Melak Mine",
+    "source":"https://thiess.com/projects/melak-coal-mine",
+    "location":"Melak",
+    "province":"East Kalimantan",
+    "company":"Bayan Resources",
+    "contractor":"https://thiess.com/projects?region=indonesia",
+    "products":"Coal",
+    "financial_year":"October 2008 - ongoing"
+  },
+  {
+    "name":"Wahana Mine",
+    "source":"https://thiess.com/projects/wahana-coal-mine",
+    "location":"Satui",
+    "province":"South Kalimantan",
+    "company":"Bayan Resources",
+    "contractor":"https://thiess.com/projects?region=indonesia",
+    "products":"Coal",
+    "financial_year":"2007 - ongoing"
+  },
+  {
+    "name":"Hanoman Boundary Works & Satui Port Operations",
+    "source":"https://thiess.com/projects/hanoman-boundary-works-and-satui-port-operations",
+    "location":"Satui",
+    "province":"South Kalimantan",
+    "company":"Cakrawala Langit Sejahtera",
+    "contractor":"https://thiess.com/projects?region=indonesia",
+    "products":"Coal",
+    "financial_year":"2021 - ongoing"
+  },
+  {
+    "name":"Tayan mine",
+    "source":"https://en.wikipedia.org/wiki/Tayan_mine",
+    "products":"Bauxite\n "
+  },
+  {
+    "name":"Kendawangan mine",
+    "source":"https://en.wikipedia.org/wiki/Kendawangan_mine",
+    "products":"Bauxite\n "
+  },
+  {
+    "name":"Buli mine",
+    "source":"https://en.wikipedia.org/wiki/Buli_mine",
+    "products":"Nickel\n "
+  },
+  {
+    "name":"Sorowako mine",
+    "source":"https://en.wikipedia.org/wiki/Sorowako_mine",
+    "province":"Sulawesi",
+    "products":"Nickel\n in-matte\n ",
+    "financial_year":"2023",
+    "type":"surface",
+    "discovered":"1901",
+    "opened":"1978",
+    "company":"Vale Canada",
+    "acquisition_year":"2024"
+  },
+  {
+    "name":"Weda Bay Industrial Park",
+    "source":"https://en.wikipedia.org/wiki/Weda_Bay_Industrial_Park"
+  },
+  {
+    "name":"Konawe Utara mine",
+    "source":"https://en.wikipedia.org/wiki/Konawe_Utara_mine",
+    "products":"Nickel\n "
+  },
+  {
+    "name":"Gag Island mine",
+    "source":"https://en.wikipedia.org/wiki/Gag_Island_mine"
+  },
+  {
+    "name":"Morowali Industrial Park",
+    "source":"https://en.wikipedia.org/wiki/Morowali_Industrial_Park"
+  },
+  {
+    "name":"North Konawe mine",
+    "source":"https://en.wikipedia.org/wiki/North_Konawe_mine",
+    "products":"Nickel\n "
+  },
+  {
+    "name":"Halmahera mine",
+    "source":"https://en.wikipedia.org/wiki/Halmahera_mine",
+    "products":"Nickel\n ",
+    "company":"Eramet"
+  },
+  {
+    "name":"Wara coal mine",
+    "source":"https://en.wikipedia.org/wiki/Wara_coal_mine",
+    "products":"Coking coal\n "
+  },
+  {
+    "name":"East Kutai coal mine",
+    "source":"https://en.wikipedia.org/wiki/East_Kutai_coal_mine",
+    "products":"Coking coal\n "
+  },
+  {
+    "name":"Bengalon coal mine",
+    "source":"https://en.wikipedia.org/wiki/Bengalon_coal_mine",
+    "products":"Coking coal\n "
+  },
+  {
+    "name":"GAM coal mine",
+    "source":"https://en.wikipedia.org/wiki/GAM_coal_mine",
+    "products":"Coking coal\n "
+  },
+  {
+    "name":"Cempaka diamond mine",
+    "source":"https://en.wikipedia.org/wiki/Cempaka_diamond_mine",
+    "products":"Diamond\n "
+  },
+  {
+    "name":"Sangatta Coal Mine",
+    "source":"https://en.wikipedia.org/wiki/Sangatta_Coal_Mine",
+    "products":"Coking coal\n "
+  },
+  {
+    "name":"Tanjung Enim Coal Mine",
+    "source":"https://en.wikipedia.org/wiki/Tanjung_Enim_Coal_Mine",
+    "products":"Coking coal\n "
+  },
+  {
+    "name":"Peranap coal mine",
+    "source":"https://en.wikipedia.org/wiki/Peranap_coal_mine",
+    "products":"Coking coal\n "
+  },
+  {
+    "name":"Pasir coal mine",
+    "source":"https://en.wikipedia.org/wiki/Pasir_coal_mine",
+    "products":"Coking coal\n "
+  },
+  {
+    "name":"Beutong mine",
+    "source":"https://en.wikipedia.org/wiki/Beutong_mine",
+    "products":"Copper\n "
+  },
+  {
+    "name":"Batu Hijau mine",
+    "source":"https://en.wikipedia.org/wiki/Batu_Hijau_mine",
+    "location":"West Sumbawa Regency",
+    "products":"Copper\n Gold\n Silver\n ",
+    "financial_year":"2022",
+    "opened":"2000",
+    "closed":"2032",
+    "company":"PT. Amman Mineral Nusa Tenggara",
+    "website":"http://www.amman.co.id"
+  },
+  {
+    "name":"Grasberg mine",
+    "source":"https://en.wikipedia.org/wiki/Grasberg_mine",
+    "location":"Mimika Regency",
+    "products":"Copper\n Gold\n Silver\n ",
+    "production":"1.5 billion pounds copper",
+    "financial_year":"2023",
+    "opened":"1972",
+    "website":"https://www.ptfi.co.id"
+  },
+  {
+    "name":"Paringin coal mine",
+    "source":"https://en.wikipedia.org/wiki/Paringin_coal_mine",
+    "products":"Coking coal\n ",
+    "company":"Adaro Energy"
+  },
+  {
+    "name":"Ombilin Coal Mine",
+    "source":"https://en.wikipedia.org/wiki/Ombilin_Coal_Mine",
+    "province":"West Sumatra",
+    "products":"Coking coal\n "
+  },
+  {
+    "name":"Martabe mine",
+    "source":"https://en.wikipedia.org/wiki/Martabe_mine",
+    "products":"Gold\n silver\n ",
+    "type":"Open mine"
+  },
+  {
+    "name":"Dairi mine",
+    "source":"https://en.wikipedia.org/wiki/Dairi_mine",
+    "location":"Dairi Regency",
+    "province":"North Sumatra",
+    "products":"Lead\n Zinc\n ",
+    "discovered":"1997",
+    "company":"Dairi Prima Mineral",
+    "website":"https://www.ptdpm.co.id/"
+  },
+  {
+    "name":"Gosowong mine",
+    "source":"https://en.wikipedia.org/wiki/Gosowong_mine",
+    "products":"Gold\n silver\n "
+  },
+  {
+    "name":"Kelian mine",
+    "source":"https://en.wikipedia.org/wiki/Kelian_mine",
+    "products":"Gold\n silver\n "
+  },
+  {
+    "name":"Sebuku, Borneo",
+    "source":"https://en.wikipedia.org/wiki/Sebuku,_Borneo",
+    "location":"South East Asia",
+    "area":"275 km"
+  },
+  {
+    "name":"Brookmount Gold",
+    "source":"https://en.wikipedia.org/wiki/Brookmount_Gold",
+    "website":"https://brookmountgold.com/"
+  },
+  {
+    "name":"Tutupan coal mine",
+    "source":"https://en.wikipedia.org/wiki/Tutupan_coal_mine",
+    "products":"Coking coal\n ",
+    "company":"Adaro Energy"
+  },
+  {
+    "name":"Kencana mine",
+    "source":"https://en.wikipedia.org/wiki/Kencana_mine",
+    "products":"Gold\n silver\n "
+  }
+]

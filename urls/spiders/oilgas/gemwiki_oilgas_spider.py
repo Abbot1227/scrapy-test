@@ -29,16 +29,21 @@ class GemWikiOilGasSpider(Spider):
 
         # Searching for location header in the table
         loc_index = None
+        block_index = None
         for idx, th in enumerate(loc_table.css('tr th')):
             if th.css('::text').get().strip() == 'Location':
                 loc_index = idx+1
                 break
+            if th.css('::text').get().strip() == 'Concession/Block':
+                block_index = idx+1
 
+        if block_index is not None:
+            block = loc_table.css(f'tr + tr td:nth-child({block_index})::text').get()
+            loader.add_value('block', block)
         if loc_index is not None:
             province = loc_table.css(f'tr + tr td:nth-child({loc_index})::text').get()
-            block = loc_table.css('tr + tr td:first-child::text').get()
             location = province.split(', ')
-            loader.add_value('province', block)
+            loader.add_value('province', province)
             loader.add_value('location', location[0])
 
         # Main Data table
@@ -96,7 +101,10 @@ class GemWikiOilGasSpider(Spider):
                 data_year_idx = idx + 1
 
         prod_table = response.xpath('//h3[span[@id="Production_and_Reserves"]]/following-sibling::table[2]')
-        if prod_table.css('tr th::text').get() == 'Category':
+        if reserve_table.css('tr th::text').get() == 'Category\n':
+            prod_table = reserve_table
+            loader.add_value('reserves', 'N/A')
+        if prod_table.css('tr th::text').get() == 'Category\n':
             category_idx = None
             fuel_desc_idx = None
             quantity_prod_idx = None
@@ -104,10 +112,14 @@ class GemWikiOilGasSpider(Spider):
             year_prod_idx = None
 
             for idx, th in enumerate(prod_table.css('tr th')):
+                print(prod_table.css('tr th::text').get())
                 text = th.css('::text').get().strip()
+                print("Text th:", text)
                 if text == 'Category':
+                    print('Category found')
                     category_idx = idx + 1
                 elif text == 'Fuel Description':
+                    print('Fuel Description found')
                     fuel_desc_idx = idx + 1
                 elif text == 'Quantity':
                     quantity_prod_idx = idx + 1
@@ -119,29 +131,29 @@ class GemWikiOilGasSpider(Spider):
             production = ''
             for tr in prod_table.css('tr')[1:]:
                 if category_idx is not None:
-                    production += tr.css(f'td:nth-child({category_idx})::text').get() + ' - '
+                    production += tr.css(f'td:nth-child({category_idx})::text').get().strip('\n') + ' - '
                 if fuel_desc_idx is not None:
-                    production += tr.css(f'td:nth-child({fuel_desc_idx})::text').get() + ' - '
+                    production += tr.css(f'td:nth-child({fuel_desc_idx})::text').get().strip('\n') + ' - '
                 if quantity_prod_idx is not None:
-                    production += tr.css(f'td:nth-child({quantity_prod_idx})::text').get() + ' '
+                    production += tr.css(f'td:nth-child({quantity_prod_idx})::text').get().strip('\n') + ' '
                 if units_prod_idx is not None:
-                    production += tr.css(f'td:nth-child({units_prod_idx})::text').get() + ' - '
+                    production += tr.css(f'td:nth-child({units_prod_idx})::text').get().strip('\n') + ' - '
                 if year_prod_idx is not None:
-                    production += tr.css(f'td:nth-child({year_prod_idx})::text').get() + '\n'
+                    production += tr.css(f'td:nth-child({year_prod_idx})::text').get().strip('\n') + '\n'
             loader.add_value('production', production)
 
         reserves = ''
         for tr in reserve_table.css('tr')[1:]:
             if fuel_idx is not None:
-                reserves += tr.css(f'td:nth-child({fuel_idx})::text').get() + ' - '
+                reserves += tr.css(f'td:nth-child({fuel_idx})::text').get().strip('\n') + ' - '
             if classification_idx is not None:
-                reserves += tr.css(f'td:nth-child({classification_idx})::text').get() + ' - '
+                reserves += tr.css(f'td:nth-child({classification_idx})::text').get().strip('\n') + ' - '
             if quantity_idx is not None:
-                reserves += tr.css(f'td:nth-child({quantity_idx})::text').get() + ' '
+                reserves += tr.css(f'td:nth-child({quantity_idx})::text').get().strip('\n') + ' '
             if units_idx is not None:
-                reserves += tr.css(f'td:nth-child({units_idx})::text').get() + ' - '
+                reserves += tr.css(f'td:nth-child({units_idx})::text').get().strip('\n') + ' - '
             if data_year_idx is not None:
-                reserves += tr.css(f'td:nth-child({data_year_idx})::text').get() + '\n'
+                reserves += tr.css(f'td:nth-child({data_year_idx})::text').get().strip('\n') + '\n'
         loader.add_value('reserves', reserves)
 
         yield loader.load_item()
