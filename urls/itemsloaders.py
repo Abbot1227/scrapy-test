@@ -19,3 +19,6 @@ class NuEnergyItemsLoader(ItemLoader):
 
 class WikiMineItemsLoader(ItemLoader):
     default_output_processor = TakeFirst()
+
+class WaterItemsLoader(ItemLoader):
+    default_output_processor = TakeFirst()

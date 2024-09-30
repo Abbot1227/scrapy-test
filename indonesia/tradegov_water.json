@@ -1,0 +1,370 @@
+[
+  {
+    "name":"Jakarta Sewerage System (JSS)",
+    "source":"https://kppip.go.id/en/priority-projects/water-sanitation/jakarta-sewerage-system-jss/",
+    "location":"DKI Jakarta",
+    "owner":"Provincial Government of DKI Jakarta",
+    "construction_year":"2019",
+    "start_year":"2022",
+    "status":"Preparation Stage",
+    "budget":"IDR 69,6 Trillion - State Budget, B2B, Public Private Partnership (PPP)",
+    "description":"Jakarta Sewerage System project will manage domestic waste treatment in 15 zones (including zones that have been in operation), with the initial focus on Zones 1 and 6. Both are targeted for operation in 2021. Zone 1 will serve the central and north areas and Zone 6 will serve the west area. Total cost of Zone 1 project is ± IDR 8 Trillion, while the development of Zone 6 will cost ± IDR 5 Trillion.",
+    "significance":"As the nation’s capital city, DKI Jakarta has developed as a center of government, business, and industry. Since the development is not accompanied by the improvement of disposal system for handling wastes generated, the condition of water and sanitation in Jakarta has increasingly worsened. Currently, the coverage ratio in DKI Jakarta is only 4% of the entire area with a BOD pollution rate of 84 mg/l. This condition makes DKI Jakarta the second lowest capital city in Southeast Asia in terms of sanitation. In addition to the above, JSS is also needed to support the effectiveness of the National Capital Integrated Coastal Development (NCICD), which has commenced with construction. Since the development of waste water treatment plant is crucial to NCICD development, this project has become a priority to the central government with the issuance of Letter No: S-130/D.VI.M.EKON/09/2013 regarding the Acceleration of the Development of Integrated Waste Water Treatment System in DKI Jakarta, which stipulates the importance to achieve 75% coverage of waste water service area in 2022."
+  },
+  {
+    "name":"National Capital Integrated Coastal Development (NCICD) Phase A",
+    "source":"https://kppip.go.id/en/priority-projects/water-sanitation/national-capital-integrated-coastal-development-ncicd-phase-a/",
+    "location":"DKI Jakarta",
+    "owner":"Provincial Government of DKI Jakarta, Provincial Government of Banten, Provincial Government of West Java, ministry for public works and human settlements",
+    "construction_year":"2015",
+    "start_year":"2018",
+    "status":"contruction and will be operation in 2018",
+    "budget":"IDR 3.044 Trillion - State/regional budget,State-Owned Enterpricefor/regional-Owned Enterprice Phase A, Public-Private Partnership (PPP), Private Sectors",
+    "description":"National Capital Integrated Coastal Development (NCICD) includes the construction of a giant seawall in the north of Jakarta Bay as an effort to protect the capital city from floods. Large lagoons will be built within the walls to accommodate the water flow from 13 rivers in Jakarta (water reservoirs).",
+    "significance":"More than half of Jakarta residents live in the coastal area and significant urban economic activities develop in the coastal area. There are 13 rivers which disembogue in Jakarta Bay and 40% of the coastal lowland area lies below tidal surface. Floods in coastal area are exacerbated by the land subsidence due to excessive extraction of ground water."
+  },
+  {
+    "name":"Drinking Water Supply System (SPAM) Lampung",
+    "source":"https://kppip.go.id/en/priority-projects/water-sanitation/drinking-water-supply-system-spam-lampung/",
+    "location":"Lampung",
+    "contractor":"Regional Drinking Water Company (PDAM) Bandar Lampung City",
+    "status":"Contruction and will be Operation in 2019"
+  },
+  {
+    "name":"Drinking Water Supply System (SPAM) Regional Jatiluhur",
+    "source":"https://kppip.go.id/en/priority-projects/water-sanitation/drinking-water-supply-system-spam-regional-jatiluhur/",
+    "location":"Jatiluhur, West Java",
+    "contractor":"Perum Jasa Tirta II",
+    "status":"Preparation Stage"
+  },
+  {
+    "name":"West Semarang Drinking Water Supply System",
+    "source":"https://kppip.go.id/en/priority-projects/water-sanitation/west-semarang-drinking-water-supply-system/",
+    "location":"Semarang, Central Java",
+    "owner":"Regional Drinking Water Company (PDAM) Semarang City",
+    "construction_year":"2019",
+    "status":"Transaction Stage",
+    "budget":"IDR 1,17 Trillion - Public-Private Partnership (PPP)",
+    "description":"West Semarang Drinking Water Supply System is a project to supply drinking water under PPP scheme. The Government Contracting Agency is the Municipal Government of Semarang, supported by PT Indonesia Infrastruktur Finance (IIF) as the transaction advisor. It has become one of the pilot projects for PPP with availability payment scheme from the Regional Budget."
+  },
+  {
+    "name":"Pengolahan Air Limbah Jakarta (Jakarta Sewerage System)",
+    "source":"https://kppip.go.id/proyek-prioritas/air-dan-sanitasi/pengolahan-air-limbah-jakarta/",
+    "location":"DKI Jakarta",
+    "contractor":"Pemerintah Provinsi DKI Jakarta",
+    "construction_year":"–",
+    "start_year":"2026",
+    "budget":"69,600 Triliun - KPBU"
+  },
+  {
+    "name":"Tanggul Laut",
+    "source":"https://kppip.go.id/proyek-prioritas/air-dan-sanitasi/tanggul-laut/",
+    "location":"DKI Jakarta, Jawa Barat, Banten",
+    "contractor":"Pemerintah Provinsi DKI Jakarta",
+    "construction_year":"2015",
+    "start_year":"2024",
+    "budget":"5,677 Triliun - APBN, APBD, BUMN, BUMD dan Swasta"
+  },
+  {
+    "name":"Sistem Penyediaan Air Minum (SPAM) Regional Jatiluhur",
+    "source":"https://kppip.go.id/proyek-prioritas/air-dan-sanitasi/sistem-penyediaan-air-minum-spam-regional-jatiluhur//",
+    "location":"DKI Jakarta dan Jawa Barat",
+    "contractor":"Perum Jasa Tirta II",
+    "construction_year":"–",
+    "start_year":"2024",
+    "status":" Tahap Transaksi",
+    "budget":"16,375 Triliun - KPBU"
+  },
+  {
+    "name":"Sistem Penyediaan Air Minum (SPAM) Lampung",
+    "source":"https://kppip.go.id/proyek-prioritas/air-dan-sanitasi/sistem-penyediaan-air-minum-spam-lampung//",
+    "location":"Bandar Lampung",
+    "contractor":"PDAM Kota Bandar Lampung",
+    "construction_year":"Januari 2018",
+    "start_year":"Desember 2020",
+    "status":"Selesai",
+    "budget":"1,061 Triliun - KPBU"
+  },
+  {
+    "name":"SPAM Semarang Barat",
+    "source":"https://kppip.go.id/proyek-prioritas/air-dan-sanitasi/spam-semarang-barat/",
+    "location":"Semarang, Jawa Tengah",
+    "contractor":"PDAM Kota Semarang",
+    "construction_year":"2019",
+    "start_year":"2021",
+    "budget":"1,169 Triliun - KPBU"
+  },
+  {
+    "name":"Building Knowledge and Capacity for Water Resilience",
+    "source":"https://www.adb.org/projects/55064-006/main",
+    "status":"Active",
+    "approval_date":"26 Apr 2024",
+    "budget":" - \nJapan Fund for Prosperous and Resilient Asia and the Pacific - US$ 2.00\nmillion\n\n",
+    "priorities":"OP3: Tackling climate change, building climate and disaster resilience, and enhancing environmental sustainability\nOP4: Making cities more livable\nOP5: Promoting rural development and food security\n",
+    "description":"Asia and the Pacific is the most disaster-prone region in the world. Over the past 50 years, natural hazards in Asia and the Pacific have affected 6.9 billion people and killed more than 2 million. In 2021 alone, floods and storms accounted for 80% of natural hazard events in Asia, directly affecting 48.3 million people, and causing total economic damages of US$ 35.6 billion According to the 2020 Asian Development Water Outlook, 22 out of 49 countries in the region are facing water security which represents 2 billion people, or 50% of the region's population.",
+    "location":"Indonesia - Nation-wide; Mongolia - Nation-wide; Nepal - Nation-wide; Pakistan - Nation-wide; Tajikistan - Nation-wide"
+  },
+  {
+    "name":"Support to the Preparation of Citywide Inclusive Sanitation Project (Subproject 9)",
+    "source":"https://www.adb.org/projects/52152-011/main",
+    "status":"Active",
+    "approval_date":"26 Jul 2023",
+    "budget":" - \nGovernment of Australia - US$ 500,000.00\n",
+    "priorities":"OP3: Tackling climate change, building climate and disaster resilience, and enhancing environmental sustainability\nOP4: Making cities more livable\n",
+    "description":"The Sustainable Infrastructure Assistance Program Phase II (SIAP2) was approved on 29 November 2018 and is expected to be completed on 30 June 2024. It supports (i) preparation of specific ensuing infrastructure projects included in the ADB's current and future project pipeline for Indonesia; (ii) implementation and capacity building support to specific ongoing ADB-funded infrastructure projects; and (iii) knowledge and policy advisory support in the areas of infrastructure planning and financing, together with program management support for effective SIAP2 implementation.",
+    "location":"Mataram, Pontianak, Semarang"
+  },
+  {
+    "name":"Karian Serpong Water Supply Project",
+    "source":"https://www.adb.org/projects/55164-001/main",
+    "status":"Approved",
+    "approval_date":"06 Jun 2023",
+    "priorities":"OP1: Addressing remaining poverty and reducing inequalities\nOP2: Accelerating progress in gender equality\nOP3: Tackling climate change, building climate and disaster resilience, and enhancing environmental sustainability\nOP4: Making cities more livable\n",
+    "description":"The project will develop, construct and operate a 4,600 liter/second water treatment plant located in South Tangerang, including a reservoir, transmission pumps, a sludge treatment facility and Supervisory Control and Data Acquisition operating system as well as a 20km pipeline."
+  },
+  {
+    "name":"Smart and Livable Cities in Southeast Asia",
+    "source":"https://www.adb.org/projects/56132-001/main",
+    "status":"Active",
+    "approval_date":"21 Dec 2022",
+    "budget":" - \nTechnical Assistance Special Fund - US$ 750,000.00\nASEAN Australia Smart Cities Trust Fund under the Urban Financing Partnership Facility - US$ 1.75\nmillion\n\n - \nSpanish Cooperation Fund for Technical Assistance - US$ 500,000.00\n - \nTechnical Assistance Special Fund - US$ 250,000.00\nWater Resilience Trust Fund - US$ 400,000.00\n - \nTechnical Assistance Special Fund - US$ 120,000.00\n",
+    "priorities":"OP2: Accelerating progress in gender equality\nOP3: Tackling climate change, building climate and disaster resilience, and enhancing environmental sustainability\nOP4: Making cities more livable\nOP6: Strengthening governance and institutional capacity\nOP7: Fostering regional cooperation and integration\n",
+    "description":"The knowledge and support technical assistance (TA) will support selected Southeast Asian developing member countries (DMCs) of the Asian Development Bank (ADB) to plan and develop livable cities that are smart, inclusive, environmentally sustainable, resilient, and competitive. The KSTA will leverage a OneADB approach and ADBs knowledge, finance, and partnerships to support project preparation and implementation, financing, and associated capacity development in the areas of (i) planning systems, (ii) service delivery, and (iii) financial management of the cities.",
+    "location":"Cambodia - Nation-wide, Battambang, Kampot, Krong Bavet, Phnom Penh, Poipet; Indonesia - Nation-wide, Makassar, Palembang, Pontianak, Semarang; Lao People's Democratic Republic - Nation-wide, Luang Prabang, Pakse, Savannakhet; Malaysia - Nation-wide, Penang; Philippines - Nation-wide, Baguio, Baguio City, Coron, Davao, El Nido; Thailand - Nation-wide, Chon Buri; Viet Nam - Nation-wide, Gia Nghia, Ho Chi Minh City, Hue, Phan Rang, Phan Thiet"
+  },
+  {
+    "name":"Citywide Inclusive Sanitation Project",
+    "source":"https://www.adb.org/projects/54428-001/main",
+    "status":"Active",
+    "approval_date":"30 Jan 2024",
+    "budget":" - \nOrdinary capital resources - US$ 419.60\nmillion\n\n",
+    "priorities":"OP1: Addressing remaining poverty and reducing inequalities\nOP2: Accelerating progress in gender equality\nOP3: Tackling climate change, building climate and disaster resilience, and enhancing environmental sustainability\nOP4: Making cities more livable\nOP6: Strengthening governance and institutional capacity\n",
+    "description":"The proposed project will contribute to the government's goal of providing access to proper and safe Sanitation and is aligned with the National Medium- Term Development Plan which in itself is aligned with the Sustainable Development Goals (SDGs).",
+    "location":"Mataram, Pontianak, Semarang"
+  },
+  {
+    "name":"Promoting Action on Plastic Pollution from Source to Sea in Asia and the Pacific - Prioritizing and Implementing Actions to Reduce Marine Plastic Pollution (Subproject 2)",
+    "source":"https://www.adb.org/projects/53068-003/main",
+    "status":"Active",
+    "approval_date":"11 Dec 2020",
+    "budget":" - \nJapan Fund for Prosperous and Resilient Asia and the Pacific - US$ 1.50\nmillion\n\nRepublic of Korea e-Asia and Knowledge Partnership Fund - US$ 500,000.00\n - \nGlobal Environment Facility - US$ 2.00\nmillion\n\nHigh Level Technology Fund - US$ 2.00\nmillion\n\n",
+    "priorities":"OP1: Addressing remaining poverty and reducing inequalities\nOP2: Accelerating progress in gender equality\nOP3: Tackling climate change, building climate and disaster resilience, and enhancing environmental sustainability\nOP4: Making cities more livable\nOP5: Promoting rural development and food security\n",
+    "description":"The knowledge and support technical assistance (KSTA) cluster will help developing member countries (DMCs) of the Asian Development Bank (ADB) deliver their commitments to reduce marine plastic pollution from source to sea. This is subproject 2 defined under the TA cluster Prioritizing and Implementing Actions to Reduce Marine Plastic Pollution. It focuses on Southeast Asia, with participating countries including Indonesia and Viet Nam.",
+    "location":"Indonesia - Nation-wide; Viet Nam - Nation-wide"
+  },
+  {
+    "name":"Creating Investable Cities in a Post-COVID-19 Asia and the Pacific — Enhancing Competitiveness and Resilience through Quality Infrastructure",
+    "source":"https://www.adb.org/projects/54036-001/main",
+    "status":"Active",
+    "approval_date":"05 Nov 2020",
+    "budget":" - \nTechnical Assistance Special Fund - US$ 1.79\nmillion\n\n - \nFinancial Sector Development Partnership Special Fund - US$ 150,000.00\n - \nJapan Fund for Prosperous and Resilient Asia and the Pacific - US$ 2.00\nmillion\n\nTechnical Assistance Special Fund - US$ 350,000.00\n",
+    "priorities":"OP1: Addressing remaining poverty and reducing inequalities\nOP2: Accelerating progress in gender equality\nOP3: Tackling climate change, building climate and disaster resilience, and enhancing environmental sustainability\nOP4: Making cities more livable\nOP5: Promoting rural development and food security\nOP6: Strengthening governance and institutional capacity\nOP7: Fostering regional cooperation and integration\n",
+    "description":"More than 95% of all coronavirus disease (COVID-19) cases, are in urban areas. COVID-19 has exposed the vulnerabilities of developing member country (DMC) cities, which are on the front line of COVID-19 containment efforts. The benefits of urban agglomeration, such as high density, lower mobility costs, and improved regional and international connectivity, that have made DMC cities the engines of economic growth in Asia and the Pacific have left cities exposed to the risks of COVID-19 a major challenge in the fight against the pandemic. COVID-19 provides an impetus to strengthen DMC cities' financial resiliency and domestic resource mobilization, and build their capacity to erect quality infrastructure to 'build back better and drive economic recovery efforts across the region.",
+    "location":"Bangladesh - Nation-wide; China - Nation-wide; Georgia - Nation-wide; India - Nation-wide; Indonesia - Nation-wide; Kazakhstan - Nation-wide; Malaysia - Nation-wide; Pakistan - Nation-wide; Papua New Guinea - Nation-wide; Philippines - Nation-wide; Sri Lanka - Nation-wide; Thailand - Nation-wide; Uzbekistan - Nation-wide; Viet Nam - Nation-wide"
+  },
+  {
+    "name":"Indorama Ventures Regional Blue Loan Project",
+    "source":"https://www.adb.org/projects/54333-001/main",
+    "status":"Active",
+    "approval_date":"23 Nov 2020",
+    "priorities":"OP3: Tackling climate change, building climate and disaster resilience, and enhancing environmental sustainability\nOP4: Making cities more livable\n"
+  },
+  {
+    "name":"Alba Blue Loan for Recycling",
+    "source":"https://www.adb.org/projects/56207-001/main",
+    "status":"Approved",
+    "approval_date":"2023",
+    "priorities":"OP1: Addressing remaining poverty and reducing inequalities\nOP2: Accelerating progress in gender equality\nOP3: Tackling climate change, building climate and disaster resilience, and enhancing environmental sustainability\nOP4: Making cities more livable\nOP7: Fostering regional cooperation and integration\n",
+    "description":"To support the development, construction, and operation of a polyethylene terephthalate (PET) recycling facility"
+  },
+  {
+    "name":"Southeast Asia Sustainable Tourism Facility",
+    "source":"https://www.adb.org/projects/55249-001/main",
+    "status":"Active",
+    "approval_date":"13 Dec 2021",
+    "budget":" - \nTechnical Assistance Special Fund - US$ 500,000.00\nProject Readiness Improvement Trust Fund - US$ 225,000.00\nRepublic of Korea e-Asia and Knowledge Partnership Fund - US$ 500,000.00\nSpanish Cooperation Fund for Technical Assistance - US$ 500,000.00\n - \nTechnical Assistance Special Fund - US$ 80,000.00\n - \nTechnical Assistance Special Fund - US$ 500,000.00\n - \nTechnical Assistance Special Fund - US$ 1.32\nmillion\n\n",
+    "priorities":"OP1: Addressing remaining poverty and reducing inequalities\nOP2: Accelerating progress in gender equality\nOP3: Tackling climate change, building climate and disaster resilience, and enhancing environmental sustainability\nOP4: Making cities more livable\nOP6: Strengthening governance and institutional capacity\nOP7: Fostering regional cooperation and integration\n",
+    "description":"The transaction technical assistance (TA) facility will provide project identification and preparation support, capacity building, and knowledge services to a series of ensuing and ongoing multisector projects that support sustainable and inclusive tourism development in the Asian Development Bank's (ADBs) Southeast Asian developing member countries (DMCs).",
+    "location":"Cambodia - Nation-wide; Indonesia - Nation-wide; Lao People's Democratic Republic - Nation-wide; Philippines - Nation-wide; Thailand - Nation-wide; Viet Nam - Nation-wide"
+  },
+  {
+    "name":"Promoting Action on Plastic Pollution from Source to Sea in Asia and the Pacific",
+    "source":"https://www.adb.org/projects/53068-001/main",
+    "status":"Active",
+    "approval_date":"05 Dec 2019",
+    "budget":" - \nTechnical Assistance Special Fund - US$ 1.00\nmillion\n\nRegional Cooperation and Integration Fund - US$ 700,000.00\n - \nGlobal Environment Facility - US$ 232,650.00\n - \nTechnical Assistance Special Fund - US$ 140,000.00\n - \nHigh Level Technology Fund - US$ 2.00\nmillion\n\n",
+    "priorities":"OP1: Addressing remaining poverty and reducing inequalities\nOP2: Accelerating progress in gender equality\nOP3: Tackling climate change, building climate and disaster resilience, and enhancing environmental sustainability\nOP4: Making cities more livable\nOP5: Promoting rural development and food security\nOP6: Strengthening governance and institutional capacity\nOP7: Fostering regional cooperation and integration\n",
+    "description":"The knowledge and support technical assistance (KSTA) cluster will help developing member countries (DMCs) of the Asian Development Bank (ADB) deliver their commitments to reduce marine plastic pollution from 'source to sea. It will help (i) prepare action plans; (ii) form policy and regulations to encourage a circular economy; and (iii) prepare investments in integrated solid waste management and circular economy systems. It will also promote and facilitate regional cooperation and knowledge-sharing.",
+    "location":"China - Nation-wide; Indonesia - Nation-wide; Myanmar - Nation-wide; Philippines - Nation-wide; Sri Lanka - Nation-wide; Thailand - Nation-wide; Viet Nam - Nation-wide"
+  },
+  {
+    "name":"Building-Coastal Resilience through Nature-Based and Integrated Solutions",
+    "source":"https://www.adb.org/projects/54212-001/main",
+    "status":"Active",
+    "approval_date":"30 Jun 2021",
+    "budget":" - \nRegional Cooperation and Integration Fund - US$ 500,000.00\nTechnical Assistance Special Fund - US$ 500,000.00\nGlobal Environment Facility - US$ 69,000.00\nIreland Trust Fund for Building Climate Change and Disaster Resilience in Small Island Developing States - US$ 925,000.00\n - \nIreland Trust Fund for Building Climate Change and Disaster Resilience in Small Island Developing States - US$ 750,000.00\nGEF-Least Developed Countries Fund - US$ 441,400.00\nAsia Pacific Climate Finance Fund - US$ 2.50\nmillion\n\nGEF-Special Climate Change Fund - US$ 837,139.00\n",
+    "priorities":"OP2: Accelerating progress in gender equality\nOP3: Tackling climate change, building climate and disaster resilience, and enhancing environmental sustainability\nOP4: Making cities more livable\nOP6: Strengthening governance and institutional capacity\nOP7: Fostering regional cooperation and integration\n",
+    "description":"Building coastal resilience in Asia-Pacific is an urgent priority. It requires adopting long-term and integrated planning approaches that favor adaptive management, a risk-based approach, inclusive processes, and consider the full spectrum of coastal resilience options. Given their potential benefits, nature-based solutions should be considered as part of integrated plans combining grey and green solutions and soft measures such as awareness raising, policy making, land use planning and early warning. The TA will support DMCs based on demand and potential impact and will explore linkages with other ADB programs. Consideration will also be given to potential for knowledge-sharing and scaling-up of TA activities across the region. ",
+    "location":"Bangladesh - Nation-wide; Brunei Darussalam - Nation-wide; Fiji - Nation-wide; India - Nation-wide; Indonesia - Nation-wide; Kiribati - Nation-wide; Malaysia - Nation-wide; Maldives - Nation-wide; Marshall Islands - Nation-wide; Pakistan - Nation-wide; Philippines - Nation-wide; Solomon Islands - Nation-wide; Sri Lanka - Nation-wide; Tuvalu - Nation-wide; Vanuatu - Nation-wide"
+  },
+  {
+    "name":"Revitalization of Informal Settlements and their Environments using a Water-Sensitive Approach",
+    "source":"https://www.adb.org/projects/51290-001/main",
+    "status":"Closed",
+    "approval_date":"19 Sep 2018",
+    "budget":" - \nUrban Climate Change Resilience Trust Fund under the Urban Financing Partnership Facility - US$ 196,000.00\nUrban Environmental Infrastructure Fund under the Urban Financing Partnership Facility - US$ 329,000.00\n",
+    "description":"The knowledge and support technical assistance (TA) will support the proposed Revitalization of Informal Settlements and their Environments using a Water-Sensitive Approach (RISE) Projects will be undertaken in Makassar city, Indonesia and in the Greater Suva Area (GSA), Fiji. 1 The TA will demonstrate the effectiveness of a water-sensitive approach for wastewater treatment, flood risk reduction, and urban environment improvement using decentralized green infrastructure to biologically treat contaminated and polluted water. Experiences and lessons from the project activities undertaken through the TA are expected to inform the technical design, implementation arrangements, and cost estimates for larger-scale interventions that may be undertaken by the Asian Development Bank (ADB) through investment projects. The TA will build on the preparatory work undertaken through the knowledge partnership with the Cooperative Research Centre for Water Sensitive Cities.",
+    "location":"Fiji - Suva; Indonesia - Kota Makassar"
+  },
+  {
+    "name":"Strengthening Integrated Flood Risk Management",
+    "source":"https://www.adb.org/projects/52014-001/main",
+    "status":"Closed",
+    "approval_date":"05 Nov 2018",
+    "budget":" - \nUrban Climate Change Resilience Trust Fund under the Urban Financing Partnership Facility - US$ 3.00\nmillion\n\n - \nHigh Level Technology Fund - US$ 60,000.00\nTechnical Assistance Special Fund - US$ 75,000.00\n",
+    "description":"The technical assistance aims to strengthen the design and implementation of Integrated Flood Risk Management (IFRM) solutions, enhancing knowledge and application of IFRM strategies in DMCs. The TA will provide targeted technical support for program and project preparation and promote more holistic IFRM solutions, including basin-scale and nature-based solutions. ",
+    "location":"Bangladesh - Nation-wide; India - Nation-wide; Indonesia - Nation-wide; Myanmar - Nation-wide; Nepal - Nation-wide; Pakistan - Nation-wide; Philippines - Nation-wide; Viet Nam - Nation-wide"
+  },
+  {
+    "name":"Advancing Inclusive and Resilient Urban Development Targeted at the Urban Poor",
+    "source":"https://www.adb.org/projects/51325-001/main",
+    "status":"Closed",
+    "approval_date":"06 Apr 2018",
+    "budget":" - \nUrban Climate Change Resilience Trust Fund under the Urban Financing Partnership Facility - US$ 5.00\nmillion\n\n",
+    "description":"The proposed knowledge and support technical assistance (TA) will support selected developing member countries (DMCs) of the Asian Development Bank (ADB)Bangladesh, Indonesia, and the Philippinesto strengthen its capacity to design and implement investment projects that strengthen resilience of the urban poor, thereby advancing inclusive urban development. The resilience-building measures will include a combination of interventions targeted at household, community, and local government level. The support to DMCs will include (i) country studies to identify investment opportunities for strengthening resilience of the urban poor; (ii) improve skills for using climate change and disaster risk information for developing resilience-building investments targeted at the urban poor; and (iii) supporting project preparatory report with an explicit focus on strengthening resilience of urban poor.",
+    "location":"Bangladesh - Nation-wide; Indonesia - Nation-wide; Philippines - Nation-wide"
+  },
+  {
+    "name":"Promoting Action on Plastic Pollution from Source to Sea in Asia and the Pacific - Enhancing Knowledge and Creating Enabling Environments for Reducing Marine Plastic Pollution (Subproject 1)",
+    "source":"https://www.adb.org/projects/53068-002/main",
+    "status":"Active",
+    "approval_date":"18 Dec 2019",
+    "budget":" - \nTechnical Assistance Special Fund - US$ 1.00\nmillion\n\nRegional Cooperation and Integration Fund - US$ 700,000.00\n - \nGlobal Environment Facility - US$ 232,650.00\n - \nTechnical Assistance Special Fund - US$ 140,000.00\n",
+    "priorities":"OP1: Addressing remaining poverty and reducing inequalities\nOP2: Accelerating progress in gender equality\nOP3: Tackling climate change, building climate and disaster resilience, and enhancing environmental sustainability\nOP4: Making cities more livable\nOP5: Promoting rural development and food security\nOP6: Strengthening governance and institutional capacity\nOP7: Fostering regional cooperation and integration\n",
+    "description":"The knowledge and support technical assistance (KSTA) cluster will help developing member countries (DMCs) of the Asian Development Bank (ADB) deliver their commitments to reduce marine plastic pollution from source to sea. This is subproject 1 defined under the TA cluster Enhancing Knowledge and Creating Enabling Environments for Reducing Marine Plastic Pollution. It focuses on Southeast Asia, with participating countries including Indonesia, Myanmar, Thailand and Viet Nam.",
+    "location":"China - Nation-wide, China; Indonesia - Nation-wide, Indonesia, Indonesia; Myanmar - Nation-wide, Myanmar; Sri Lanka - Nation-wide; Thailand - Nation-wide, Thailand; Viet Nam - Nation-wide, Vietnam"
+  },
+  {
+    "name":"Development of Regional Water Supply System in Wosusokas",
+    "source":"https://www.trade.gov/market-intelligence/indonesia-water-projects",
+    "budget":133000000,
+    "waterProcessingCapacity":750,
+    "mainDistributionNetworkSize":73800,
+    "houseConnections":240000
+  },
+  {
+    "name":"Regency Settlement Infrastructure Development",
+    "source":"https://www.trade.gov/market-intelligence/indonesia-water-projects",
+    "budget":105000000
+  },
+  {
+    "name":"Jenelata Dam Construction Project",
+    "source":"https://www.trade.gov/market-intelligence/indonesia-water-projects",
+    "budget":300000000,
+    "irrigationArea":24000,
+    "floodDischargeReduction":true,
+    "rawWaterSupply":true,
+    "electricityGeneration":10.9
+  },
+  {
+    "name":"Riam Kiwa Multipurpose Dam Construction Project",
+    "source":"https://www.trade.gov/market-intelligence/indonesia-water-projects",
+    "budget":250000000,
+    "irrigationArea":1800,
+    "floodDischargeReduction":true,
+    "rawWaterSupply":true,
+    "electricityGeneration":0.92
+  },
+  {
+    "name":"Lambakan Dam Project",
+    "source":"https://www.trade.gov/market-intelligence/indonesia-water-projects",
+    "budget":547000000,
+    "irrigationArea":23000,
+    "floodDischargeReduction":true,
+    "rawWaterSupply":true,
+    "electricityGeneration":19.44
+  },
+  {
+    "name":"Pelosika Multipurpose Dam Construction Project",
+    "source":"https://www.trade.gov/market-intelligence/indonesia-water-projects",
+    "budget":352000000,
+    "irrigationArea":22764,
+    "floodDischargeReduction":true,
+    "rawWaterSupply":true,
+    "electricityGeneration":20
+  },
+  {
+    "name":"Karian Dam-Serpong Water Conveyance System",
+    "source":"https://www.trade.gov/market-intelligence/indonesia-water-projects",
+    "budget":257000000,
+    "waterSupplyNetworkSize":4000000,
+    "newConnections":800000
+  },
+  {
+    "name":"Desalination Plant",
+    "province":"Sulawesi Tenggara",
+    "location":"Batuputih",
+    "source":"https://beta.co.id/portfolio-project/",
+    "year_announced":"2022"
+  },
+  {
+    "name":"SPAM Kali Angke",
+    "province":"Tangerang Selatan",
+    "source":"https://beta.co.id/portfolio-project/",
+    "year_announced":"2020"
+  },
+  {
+    "name":"PLTU Sulsel Barru II 100 MW",
+    "province":"Sulawesi Selatan",
+    "source":"https://beta.co.id/portfolio-project/",
+    "year_announced":"2019"
+  },
+  {
+    "name":"PLTU Indramayu",
+    "province":"Indramayu",
+    "source":"https://beta.co.id/portfolio-project/",
+    "year_announced":"23 April 2018"
+  },
+  {
+    "name":"PLTU Nias",
+    "province":"Nias",
+    "source":"https://beta.co.id/portfolio-project/",
+    "year_announced":"Maret 2016"
+  },
+  {
+    "name":"PLTU Anggrek 2×25 MW",
+    "province":"Gorontalo Utara",
+    "source":"https://beta.co.id/portfolio-project/",
+    "year_announced":"2014"
+  },
+  {
+    "name":"Gajah Tunggal",
+    "province":"Tangerang",
+    "source":"https://beta.co.id/portfolio-project/",
+    "year_announced":"2014"
+  },
+  {
+    "name":"CWCO",
+    "province":"Bali",
+    "source":"https://beta.co.id/portfolio-project/",
+    "year_announced":"2012"
+  },
+  {
+    "name":"Samur",
+    "province":"Sabah Ammonia Urea (Samur) – Malaysia",
+    "source":"https://beta.co.id/portfolio-project/",
+    "year_announced":"2012"
+  },
+  {
+    "name":"Ancol Project",
+    "province":"Jakarta",
+    "source":"https://beta.co.id/portfolio-project/",
+    "year_announced":"2010"
+  },
+  {
+    "name":"Bimoli Tanjung Priok SWRO",
+    "province":"Jakarta",
+    "source":"https://beta.co.id/portfolio-project/",
+    "year_announced":"2010"
+  }
+]
