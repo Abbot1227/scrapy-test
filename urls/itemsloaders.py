@@ -14,11 +14,18 @@ class WikiItemsLoader(ItemLoader):
 class GemWikiItemsLoader(ItemLoader):
     default_output_processor = TakeFirst()
 
+
 class NuEnergyItemsLoader(ItemLoader):
     default_output_processor = TakeFirst()
+
 
 class WikiMineItemsLoader(ItemLoader):
     default_output_processor = TakeFirst()
 
+
 class WaterItemsLoader(ItemLoader):
+    default_output_processor = TakeFirst()
+
+
+class PortItemsLoader(ItemLoader):
     default_output_processor = TakeFirst()
